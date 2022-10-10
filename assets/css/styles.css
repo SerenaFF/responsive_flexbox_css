@@ -151,3 +151,15 @@ body {
   padding-top: 2rem;
   font-size: .8rem;
 }
+@media screen and (max-width: 420px) {
+  .contenedor {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 420px) and (max-width: 920px) {
+  * {
+    font-size: 1.1em;
+  }
+  .form {
+    width: 75vw;
+    }
